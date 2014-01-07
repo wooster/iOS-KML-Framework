@@ -1,0 +1,7 @@
+pod "iOS-KML-Framework", :path => "../iOS-KML-Framework.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
