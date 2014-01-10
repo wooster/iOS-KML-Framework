@@ -47,7 +47,7 @@ point.coordinate = coordinate;
 iOS-KML-Framework is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
-    pod "iOS-KML-Framework"
+    pod 'iOS-KML-Framework', :git => 'https://github.com/FLCLjp/iOS-KML-Framework.git'
 
 ## Author
 
