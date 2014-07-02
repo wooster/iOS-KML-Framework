@@ -361,6 +361,11 @@
     if (self.abstractView) {
         [self.abstractView kml:kml indentationLevel:indentationLevel];
     }
+    
+    if (self.timePrimitive) {
+        [self.timePrimitive kml:kml indentationLevel:indentationLevel];
+    }
+    
     for (KMLAbstractStyleSelector *styleSelector in self.styleSelectors) {
         [styleSelector kml:kml indentationLevel:indentationLevel];
     }
