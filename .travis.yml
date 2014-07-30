@@ -1,0 +1,8 @@
+language: objective-c
+
+# before_install:
+#     - brew update
+#     - brew upgrade xctool
+
+script:
+    - xctool -workspace KML.xcworkspace -scheme "KML" -configuration Release -sdk iphonesimulator test
