@@ -51,7 +51,7 @@
 
 - (void)setDrawOrder:(NSInteger)drawOrder
 {
-    _drawOrderValue = [NSString stringWithFormat:@"%d", drawOrder];
+    _drawOrderValue = @(drawOrder).stringValue;
 }
 
 - (void)setIcon:(KMLIcon *)icon
